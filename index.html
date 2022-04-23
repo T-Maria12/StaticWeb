@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta name="viewport" content="with=device-width , initial-scale=1.0">
+    <title>MC-Design Fest</title>
+    <link rel="stylesheet" href="./owl/owl.carousel.min.css" />
+    <link rel="stleysheet" href="./owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/MC.svg" />
+  </head>
+  <body>
+    <div  class="form">
+        <div class="form-content">
+            <span class="close">&times;</span>
+
+            <h2>Registrations</h2>
+            <form >
+                <div class="input col col-md">
+                    <label for="firstName" class="col-4">First Name: </label>
+                    <input type="text" name="firstName" class="box" id="firstName" />
+                </div>
+                <div class="input col col-md">
+                    <label for="lastName" class="col-4">Last Name: </label>
+                    <input type="text" class="box" name="lastName" id="lastName" />
+                </div>
+                <div class="input col col-md">
+                    <label for="email" class="col-4">E-mail: </label>
+                    <input type="email" name="email" class="box" id="email" />
+                </div>
+                <div class="input col col-md">
+                    <label for="phoneNumber" class="col-4">Phone Number: </label>
+                    <input type="tel" class="box" name="phoneNumber" id="phoneNumber" />
+                </div>
+                <div class="col d-flex ">
+                    <a href="#" class="btn mx">
+                        COMPLETE THE REGISTRATION
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <a class="nav-logo" href="https://www.microclub.com">
+            <img src="images/MC.svg" alt="" class="main-nav-image" />
+        </a>
+        
+        <ul class="main-nav-elements" id="menuList" >
+            <li class="main-nav-element">
+                <a href="https://www.microclub.net/">Micro club</a>
+            </li>
+            <li class="main-nav-element"><a href="#Home">Home</a></li>
+            <li class="main-nav-element"><a href="#About">About</a></li>
+            <li class="main-nav-element menu-holder">
+                <a href="#Details">Details</a>
+                <ul class="hover-menu">
+                    <li class="hover-element">
+                        <a href="#Speakers">Speakers</a>
+                    </li>
+                    <li class="hover-element">
+                        <a href="#Schedule">Schedule</a>
+                    </li>
+                    <li class="hover-element">
+                        <a href="#Location">Location</a>
+                    </li>
+                    <li class="hover-element">
+                        <a href="#Sponsors">Sponsors</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-nav-element"><a href="#Contact">Contact</a></li>
+            <a href="#" id="REGISTRATIONS" class="button">Register for the event ➔ </a>
+        </ul>
+        <img src="./images/iconmonstr-menu-1.svg" alt="" class="menu-icon" onclick="toggleMenu()">
+    </nav>
+    <header id="Home">
+        <section>
+            <h1>MICRO CLUB DESIGN FEST</h1>
+            <div class="info">
+                <h4>12 MAY 2022</h4>
+                <a href="#location">CONFERENCE ROOM USTHB</a>
+                <a href="#Details" class="button secondary">Discover More ➔</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="About">
+            <div class="about-sub">
+                <h2>ABOUT DESIGN</h2>
+                <button class="button">Register in the event</button>
+            </div>
+            <div class="about-sub">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero autem soluta quibusdam earum!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Rem corrupti assumenda nihil eveniet, voluptatem
+                    minima veritatis, numquam saepe nostrum porro veniam
+                    sequi ab cumque mollitia, fugit dolor? Ex, itaque
+                    recusandae!
+                </p>
+                <div class="about-container">
+                    <div class="about-counters">
+                        <span class="counting-Number"><span>00</span></span>
+                        <span class="counting-text">DAYS EVENT</span>
+                    </div>
+                    <div class="about-counters">
+                        <span class="counting-Number"> <span>00</span> +</span>
+
+                        <span class="counting-text">Confrences</span>
+                    </div>
+                    <div class="about-counters">
+                        <span class="counting-Number"> <span>00</span> +</span>
+                        <span class="counting-text">WORKSHOPS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Speakers">
+            <div class="top-div">
+                <h2>Speakers</h2>
+                <a href="/Speakers" class="secondary button"
+                    >Veiw all speakers</a
+                >
+            </div>
+            <div class="owl-carousel speakers">
+                <div class="speaker">
+                    <div class="speaker-visual">
+                        <img
+                            class="speaker-img"
+                            src="images/xteam1.jpg"
+                            alt=""
+                        />
+                        <ul class="speaker-socials">
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.facebook.com/Micro.Club.USTHB/"
+                                    ><img src="./images/facebook-f-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.instagram.com/microclub_usthb/"
+                                    ><img src="./images/instagram-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.linkedin.com/in/youcef-madadi-438a33170/"
+                                    ><img src="./images/linkedin-in-brands.svg" /></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <h6>First LastName</h6>
+                    <p>Web Developer <span>@micro club</span></p>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-visual">
+                        <img
+                            class="speaker-img"
+                            src="images/xteam1.jpg"
+                            alt=""
+                        />
+                        <ul class="speaker-socials">
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.facebook.com/Micro.Club.USTHB/"
+                                    ><img src="./images/facebook-f-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.instagram.com/microclub_usthb/"
+                                    ><img src="./images/instagram-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.linkedin.com/in/youcef-madadi-438a33170/"
+                                    ><img src="./images/linkedin-in-brands.svg" /></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <h6>First LastName</h6>
+                    <p>Web Developer <span>@micro club</span></p>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-visual">
+                        <img
+                            class="speaker-img"
+                            src="images/xteam1.jpg"
+                            alt=""
+                        />
+                        <ul class="speaker-socials">
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.facebook.com/Micro.Club.USTHB/"
+                                    ><img src="./images/facebook-f-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.instagram.com/microclub_usthb/"
+                                    ><img src="./images/instagram-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.linkedin.com/in/youcef-madadi-438a33170/"
+                                    ><img src="./images/linkedin-in-brands.svg" /></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <h6>First LastName</h6>
+                    <p>Web Developer <span>@micro club</span></p>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-visual">
+                        <img
+                            class="speaker-img"
+                            src="images/xteam1.jpg"
+                            alt=""
+                        />
+                        <ul class="speaker-socials">
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.facebook.com/Micro.Club.USTHB/"
+                                    ><img src="./images/facebook-f-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.instagram.com/microclub_usthb/"
+                                    ><img src="./images/instagram-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.linkedin.com/in/youcef-madadi-438a33170/"
+                                    ><img src="./images/linkedin-in-brands.svg" /></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <h6>First LastName</h6>
+                    <p>Web Developer <span>@micro club</span></p>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-visual">
+                        <img
+                            class="speaker-img"
+                            src="images/xteam1.jpg"
+                            alt=""
+                        />
+                        <ul class="speaker-socials">
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.facebook.com/Micro.Club.USTHB/"
+                                    ><img src="./images/facebook-f-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.instagram.com/microclub_usthb/"
+                                    ><img src="./images/instagram-brands.svg" /></a
+                                >
+                            </li>
+                            <li class="speaker-social">
+                                <a
+                                    href="https://www.linkedin.com/in/youcef-madadi-438a33170/"
+                                    ><img src="./images/linkedin-in-brands.svg" /></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <h6>First LastName</h6>
+                    <p>Web Developer <span>@micro club</span></p>
+                </div>
+            </div>
+        </section>
+        <section id="Details">
+            <img class="left-detail" src="./images/Celeb .jpg" alt="" />
+            <div class="right-detail">
+                <h2>A MICRO CLUB <span>CELEBRATION DESIGN</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione cumque voluptate, ipsum a
+                    laborum exercitationem saepe et voluptatem quis quia sequi eligendi cum optio culpa quae, eius
+                    distinctio quam!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione cumque voluptate, ipsum a
+                    laborum exercitationem saepe et voluptatem quis quia sequi eligendi cum optio culpa quae, eius
+                    distinctio quam!
+                </p>
+            </div>
+        </section>
+        <section id="Schedule">
+            <h2>Schedule</h2>
+            <div class="schedule-table">
+                <nav class="schedule-nav">
+                    <a class="active" href="#schedule">12th May</a>
+                    <a href="#schedule">13th May</a>
+                    <a href="#schedule">14th May</a>
+                </nav>
+                <div class="schedule-content">
+                    <div class="schedule-day active" id="schedule-day1">
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">08:00 AM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">10:00 AM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">01:00 PM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">03:00 PM</h5>
+                        </div>
+                    </div>
+                    <div class="schedule-day" id="schedule-day2">
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">08:00 AM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">10:00 AM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">01:00 PM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">03:00 PM</h5>
+                        </div>
+                    </div>
+                    <div class="schedule-day" id="schedule-day3">
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">08:00 AM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">10:00 AM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">01:00 PM</h5>
+                        </div>
+                        <div class="schedule-content-element">
+                            <div class="schedule-time-content">
+                                <h5>Registration And Breakfast</h5>
+                                <ul>
+                                    <li>Name Last Name</li>
+                                    <li>Name Last Name</li>
+                                </ul>
+                            </div>
+                            <h5 class="schedule-time">03:00 PM</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Workshops">
+            <div class="top-div">
+                <h2>WORKSHOPS</h2>
+                <a href="/WORKSHOPS" class="secondary button">Veiw all workshops</a>
+            </div>
+            <div class="owl-carousel3 owl-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transform: translate3d(-1296px, 0px, 0px); transition: all 0s ease 0s; width: 4320px;"><div class="owl-item cloned" style="width: 432px;"><div class="WORKSHOP">
+                        <div class="WORKSHOP-CONTAINER">
+                            <div class="WORKSHOP-IMG">
+                                <img src="./images/AdobeIllustrator.svg" alt="">
+                            </div>
+                            <div class="WORKSHOP-CAPTION">
+                                <h4>Design concepts</h4>
+                                <p>
+                                    This Training is made by ... for ... and some other details 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item " style="width: 432px;"><div class="WORKSHOP">
+                        <div class="WORKSHOP-CONTAINER">
+                            <div class="WORKSHOP-IMG">
+                                <img src="./images/AdobeIllustrator.svg" alt="">
+                            </div>
+                            <div class="WORKSHOP-CAPTION">
+                                <h4>Design concepts</h4>
+                                <p>
+                                    This Training is made by ... for ... and some other details
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="owl-item " style="width: 432px;"><div class="WORKSHOP">
+                        <div class="WORKSHOP-CONTAINER">
+                            <div class="WORKSHOP-IMG">
+                                <img src="./images/AdobeIllustrator.svg" alt="">
+                            </div>
+                            <div class="WORKSHOP-CAPTION">
+                                <h4>Design concepts</h4>
+                                <p>
+                                    This Training is made by ... for ... and some other details 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item " style="width: 432px;"><div class="WORKSHOP">
+                    <div class="WORKSHOP-CONTAINER">
+                        <div class="WORKSHOP-IMG">
+                            <img src="./images/AdobeIllustrator.svg" alt="">
+                        </div>
+                        <div class="WORKSHOP-CAPTION">
+                            <h4>Design concepts</h4>
+                            <p>
+                                This Training is made by ... for ... and some other details 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item " style="width: 432px;"><div class="WORKSHOP">
+                <div class="WORKSHOP-CONTAINER">
+                    <div class="WORKSHOP-IMG">
+                        <img src="./images/AdobeIllustrator.svg" alt="">
+                    </div>
+                    <div class="WORKSHOP-CAPTION">
+                        <h4>Design concepts</h4>
+                        <p>
+                            This Training is made by ... for ... and some other details 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-item " style="width: 432px;"><div class="WORKSHOP">
+            <div class="WORKSHOP-CONTAINER">
+                <div class="WORKSHOP-IMG">
+                    <img src="./images/AdobeIllustrator.svg" alt="">
+                </div>
+                <div class="WORKSHOP-CAPTION">
+                    <h4>Design concepts</h4>
+                    <p>
+                        This Training is made by ... for ... and some other details 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>  
+    </main> 
+    <section id="Location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4543.5933220384595!2d2.6894823090890156!3d36.36548621724513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128f6e7c4689ec5b%3A0x4e77d3468455bb49!2sDhaya%20lake!5e0!3m2!1sen!2sdz!4v1647621265957!5m2!1sen!2sdz"
+                width="100%" height="450" style="border:0" allowfullscreen="true" loading="lazy"></iframe>
+        </section>
+    <footer>
+     <section id="Sponsors">
+        <div class="Sponsors">
+            <h2>Sponsors</h2>
+            <div>
+                <img src="images/brand2.png" alt="">
+                <img src="images/brand2.png" alt="">
+                <img src="images/brand2.png" alt="">
+                <img src="images/brand2.png" alt="">
+                <img src="images/brand2.png" alt="">
+            </div>
+        </div>
+     </section>
+        <section id="Contact">
+            <div class="contact-parts">
+                <img src="images/MC.svg" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere debitis tempore minus perspiciatis,
+                    a porro inventore, quos magnam excepturi, corporis tenetur voluptatem quidem quasi beatae. Deleniti
+                    sit quis voluptatibus facilis illo, cum, ex sapiente ea distinctio animi, aperiam nemo cumque.
+                </p>
+            </div>
+            <div class="contact-parts">
+                <h5>Contact Us</h5>
+                <a href="#Location">Confrence Room USTHB</a>
+                <a href="mailto:microclub@uthb.dz">microclub@usthb.dz</a>
+                <a class="contact-phone" href="tel:+231542170114">(+213) 542 17 01 14</a>
+            </div>
+            <div class="contact-parts">
+                <h5>Subscribe Newsletter</h5>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugiat temporibus ratione
+                    nesciunt aliquid doloremque asperiores corporis vel.
+                </p>
+                <input class="input" type="email" name="email" placeholder="username@email.com" />
+                <button class="button" id="subscribe">Subscribe for more details</button>
+            </div>
+        </section>
+        <hr class="Copyright-line"/>
+        <p class="Copyright">
+            Copyright ©2022 All rights reserved
+            <a href="https://www.microclub.net">@Microclub</a>
+        </p>
+    </footer>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./owl/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
